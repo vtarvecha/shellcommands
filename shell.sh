@@ -1,5 +1,5 @@
 # NOHUP Usage: STDOUT and STDERR in one file
-sudo -u mapadmin nohup ./TEMP.sh &>TEMP.log &
+nohup ./TEMP.sh &>TEMP.log &
 
 # DATE PATERNS
 echo `date +%Y-%m-%d:%H:%M:%S`  # 2015-04-01:11:35:12
